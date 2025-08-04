@@ -28,14 +28,14 @@ Most of my projects are based on an elastic humanoid robot: [DLR neoDavid](https
 Some projects mentioned above are related the following publications.
 ### Journals
 
-- __X. Meng__, H. Maurenbrecher, Alin Albu-Schäffer, and M. Keppler, "Finger Flow: Dynamic and Reactive Grasping with Multi-fingered Robotic Hands." Under Review. __The International Journal of Robotic Research__, 2025 
+- __X. Meng__, H. Maurenbrecher, Alin Albu-Schäffer, and M. Keppler, "Finger Flow: Reactive Reach-while-Grasp Generation for Robotic Arms with Multi-Fingered Hands." Under Review. 2025 
 
 - __X. Meng__, M. Keppler and C. Ott, "Passivity-Based Motion and Force Tracking Control for Constrained Elastic Joint Robots," in __IEEE Control Systems Letters__, vol. 7, pp. 217-222, 2023.
 
 - G. J. Pollayil<sup>+</sup>, __X. Meng__<sup>+</sup>, M. Keppler, M. Pfanne, A. Bicchi and C. Ott, "Elastic Structure Preserving Impedance Control for Nonlinearly Coupled Tendon-Driven Systems," in __IEEE Control Systems Letters__, vol. 6, pp. 1982-1987, 2022.  (<sup>+</sup>: first authorship with equal contributions)
 
 - S. Wolf, Thomas Bahls, B. Deutschmann, A. Dietrich, M. Harder,
-H. Höppner, C. Hofmann, A. H. Martin, M. Keppler, L. Klüpfel, H. Maurenbrecher, __X. Meng__, A. E. Reichert, M. Bihler, M. Chalon, O. Eiberger, W. Friedl, M. Grebenstein, M. Iskandar,V. Langofer, M. Pfanne, A. Raffin, J. Reinecke, T. Wüsthoff and A. Albu-Schäffer, "neoDavid - A humanoid robot with variable stiffness actuation and dexterous manipulation skills", Under Review. __IEEE Robotics and Automation Magazine__, 2025.
+H. Höppner, C. Hofmann, A. H. Martin, M. Keppler, L. Klüpfel, H. Maurenbrecher, __X. Meng__, A. E. Reichert, M. Bihler, M. Chalon, O. Eiberger, W. Friedl, M. Grebenstein, M. Iskandar,V. Langofer, M. Pfanne, A. Raffin, J. Reinecke, T. Wüsthoff and A. Albu-Schäffer, "neoDavid - A humanoid robot with variable stiffness actuation and dexterous manipulation skills", __IEEE Robotics and Automation Magazine__, 2025.
 
 - M. C. Harder, M. Keppler, __X. Meng__, C. Ott, H. Hoeppner and A. Dietrich, "Simultaneous Motion Tracking and Joint Stiffness Control of Bidirectional Antagonistic Variable-Stiffness Actuators," in __IEEE Robotics and Automation Letters__.
 
