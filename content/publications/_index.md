@@ -28,7 +28,7 @@ Most of my projects are based on an elastic humanoid robot: [DLR neoDavid](https
 Some projects mentioned above are related the following publications.
 ### Journals
 
-- __X. Meng__, H. Maurenbrecher, Alin Albu-Schäffer, and M. Keppler, "Finger Flow: Reactive Reach-while-Grasp Generation for Robotic Arms with Multi-Fingered Hands." Under Review. 2025 
+- __X. Meng__, H. Maurenbrecher, Alin Albu-Schäffer, and M. Keppler, "Finger Flow: Reactive Reach-while-Grasp Generation for Robotic Arms with Multi-Fingered Hands.", Robotics and Autonomous Systems. 2025 
 
 - __X. Meng__, M. Keppler and C. Ott, "Passivity-Based Motion and Force Tracking Control for Constrained Elastic Joint Robots," in __IEEE Control Systems Letters__, vol. 7, pp. 217-222, 2023.
 
