@@ -1,0 +1,13 @@
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default "YouTube video" -}}
+{{- $poster := .Get "poster" | default (printf "/images/video/%s.jpg" $id) -}}
+<div class="video-embed">
+  <div class="video-frame">
+    <button type="button" class="video-facade" data-id="{{ $id }}" aria-label="Play video: {{ $title }}"
+      onclick="var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+this.dataset.id+'?autoplay=1&rel=0';f.title=this.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;this.parentNode.replaceChild(f,this);">
+      <img src="{{ $poster }}" alt="{{ $title }}" loading="lazy">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+  </div>
+  <p class="video-note">Plays from YouTube when clicked. <a href="https://www.youtube.com/watch?v={{ $id }}" target="_blank" rel="noopener">Open on YouTube</a></p>
+</div>

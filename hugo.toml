@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://marcomeng1.github.io/"
 languageCode = "en-us"
 title = "Xuming Meng"
 theme = "personal-web"
@@ -8,17 +8,14 @@ enableEmoji=true
 enableRobotsTXT=true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
+disableKinds = ["taxonomy", "term"]
 
 [params.intro]
-  main = "Xuming Meng <br> 孟旭明 <br> :wink:"
-  sub = "Robotics Researcher: <br> Control, Multifingered Hands, Elastic-joint Robots "
+  main = "Xuming Meng <br> 孟旭明"
+  sub = "Dr.-Ing. in Robotics <br> Reactive, contact-rich manipulation"
 
 [params.main]
   latestPublishHeader = " "
-
-[taxonomies]
-  design = "designs"
-  tech = "techs"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -45,12 +42,13 @@ pygmentsCodeFences=true
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "images/xuming.jpg" # - default "/images/edna-west.jpg"
 [params.assets]
-  favicon = ""
+  favicon = "/favicon-32.png"
   customCSS = ""
 
 [params.social]
   linkedin = "https://www.linkedin.com/in/xuming-meng"
   googlescholar = "https://scholar.google.com/citations?user=NfbJhgEAAAAJ&hl=en"
+  orcid = "https://orcid.org/0000-0001-5642-1830"
 
 [params.contact]
   email = "xuming.meng@yahoo.com"
@@ -60,10 +58,10 @@ pygmentsCodeFences=true
 [menu]
 
 [[menu.main]]
-  identifier = "Blog"
-  name = "Blog"
-  title = "Blog"
-  url = "/blog/"
+  identifier = "news"
+  name = "News"
+  title = "News"
+  url = "/news/"
   weight = -120
 
 [[menu.main]]

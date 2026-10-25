@@ -1,0 +1,46 @@
+path: /slides/phd-defense/
+slides:
+  - title: "Reactive Motion Generation and Control of Elastic-Joint Robots for Reaching and Grasping"
+  - title: "Human grasping is compliant, reactive, and continuous"
+    video: true
+  - title: "Fluid, reactive robotic grasping requires arm–finger coordination"
+    video: true
+  - title: "With elastic-joint robots? Three layers of challenge for reactive grasping"
+  - title: "Solutions: continuous state-feedback motion generation with structure-preserving control"
+  - title: "Contribution: addressing three layers of reactive grasping"
+  - title: "Extending elastic structure-preserving impedance (ESPi) control to antagonistic actuators"
+    video: true
+  - title: "Applying ESPi to single-DoF bidirectional antagonistic actuators (BAVS)"
+  - title: "An additional constraint resolves redundancy while preserving pretension and stiffness"
+  - title: "ESPi control for coupled tendon-driven systems"
+  - title: "The null space preserves internal tendon tension without affecting the link-side impedance"
+  - title: "Real-world experiments on neoDavid's BAVS joint"
+  - title: "Simulation on a coupled 4-DoF, 8-tendon finger"
+    video: true
+  - title: "Contribution: addressing three layers of reactive grasping"
+  - title: "Why generate grasping motion directly from feedback?"
+    video: true
+  - title: "Key idea 1 of Finger Flow: caging provides a tolerant intermediate grasp geometry"
+  - title: "Key idea 2 of Finger Flow: the hand hull compresses the current finger geometry"
+  - title: "Key idea 3 of Finger Flow: arm-adapts-to-finger coordination"
+  - title: "Semi-tangent flow (1/2): reducing 3D avoidance to vector field design on a 2D hand-fixed plane"
+    video: true
+  - title: "Semi-tangent flow (2/2): shape-attracting but finger-avoiding field around the hand hull"
+    video: true
+  - title: "Testing Finger Flow from static to unpredictable interaction"
+  - title: "Experiment 1: grasping stationary objects"
+    youtube: 3c2S1zHuVUM
+  - title: "Experiment 2: grasping an unpredictably moving object"
+    youtube: 3c2S1zHuVUM
+  - title: "Experiment 3: interactive and adversarial human-to-robot handover"
+    youtube: 3c2S1zHuVUM
+  - title: "Contribution: addressing three layers of reactive grasping"
+  - title: "The missing combination: direct force tracking and structure preservation"
+  - title: "Dynamically consistent projection separates motion and force, but intrinsic dynamics coupling remains"
+  - title: "Adding tracking control without cancelling link inertia or joint elasticity"
+  - title: "Why preserving structure matters: passivity"
+  - title: "Benchmark: simultaneous motion and internal-force tracking"
+  - title: "Accurate tracking while preserving the original structure"
+  - title: "Conclusion"
+  - title: "Limitations and future work: relaxing assumptions without abandoning structure"
+  - title: "Publications"
