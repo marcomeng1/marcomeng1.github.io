@@ -8,7 +8,7 @@ images: ["/images/xuming.jpg"]
 
 Hi, I'm Xuming Meng, a robotics researcher and engineer in Munich. I work on reactive, contact-rich manipulation: robots that keep adapting while they reach, grasp, and touch.
 
-I'm a Senior AI Engineer at Agile Robots SE, working on tactile- and vision-guided manipulation. Before that I spent five years as a research scientist at the German Aerospace Center (DLR), and I received my Dr.-Ing. in Robotics from TUM (*magna cum laude*, 2026), supervised by [Prof. Alin Albu-Schäffer](https://www.ce.cit.tum.de/en/rm/people/alin-albu-schaeffer/) and mentored by [Dr.-Ing. Manuel Keppler](https://manuelkeppler.com/).
+I'm a Senior AI Engineer at Agile Robots SE, working on tactile- and vision-guided manipulation. Before that I spent five years as a research scientist at the German Aerospace Center (DLR), and I received my Dr.-Ing. in Robotics from TUM (*magna cum laude*, 2026), supervised by [Prof. Alin Albu-Schäffer](https://www.ce.cit.tum.de/en/rm/people/alin-albu-schaeffer/) and advised by [Dr.-Ing. Manuel Keppler](https://manuelkeppler.com/).
 
 <div class="home-links">
 <a href="/cv/">CV</a>

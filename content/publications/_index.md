@@ -7,7 +7,14 @@ description: 'Robotics projects and publications by Xuming Meng'
 
 My work focuses on reactive, contact-rich manipulation: robots that keep adapting while they reach, grasp, and touch. Most of my research projects run on [DLR neoDavid](https://www.dlr.de/en/rm/research/robotic-systems/humanoids/david), an elastic humanoid robot ([video](https://www.youtube.com/watch?v=N5QTvjFdIPM)).
 
-## Projects
+<nav class="domain-nav" aria-label="Project domains">
+<a href="#manipulation">Reactive manipulation</a>
+<a href="#elastic-control">Elastic-robot control</a>
+<a href="#human-robot-collaboration">Safe human–robot collaboration</a>
+<a href="#publications">Publications</a>
+</nav>
+
+## Reactive, Contact-Rich Manipulation {#manipulation}
 
 ### Tactile-Reactive Dual-Arm Cable Manipulation
 <p class="project-meta">Agile Robots SE · Hannover Messe 2026</p>
@@ -42,6 +49,8 @@ Everyday manipulation on an elastic humanoid: unloading a dishwasher with compli
 
 {{< figure src="/publications/images/david_dw.gif" caption="DLR neoDavid unloading a dishwasher, alternating between the lab view and the robot's onboard camera with its digital twin. © DLR 2023" >}}
 
+## Control of Elastic and Compliant Robots {#elastic-control}
+
 ### Force Control for Constrained Elastic-Joint Robots
 <p class="project-meta">DLR · <a href="https://doi.org/10.1109/LCSYS.2022.3187345">IEEE Control Systems Letters, 2023</a> · oral at CDC 2022</p>
 
@@ -58,6 +67,8 @@ Impedance and motion control that keeps the natural elastic structure of the rob
 {{< figure src="/publications/images/hand.png" caption="Mechanics of the neoDavid hand, a 20-DoF elastic, tendon-coupled hand, with the four joints of one finger marked. © IEEE 2022" >}}
 {{< figure src="/publications/images/finger_fas.png" caption="Tendon coupling of one finger: the PIP and DIP joints are driven by antagonistic motors through flexible antagonistic spring (FAS) elements. The full hand uses 36 FAS actuators. © IEEE 2022" >}}
 
+## Safe Human–Robot Collaboration {#human-robot-collaboration}
+
 ### Human Motion Projection for Safe Collaboration
 <p class="project-meta">DLR · <a href="https://doi.org/10.1109/ICRA48506.2021.9561726">ICRA 2021</a></p>
 
@@ -65,7 +76,7 @@ Predicting fast, explosive human motion in real time so a robot can stay safe wi
 
 {{< figure src="/publications/images/human_projection.gif" caption="Real human arm motion (left) and its online projection against the robot trajectory, with estimated collision points and times (right). © DLR 2021" >}}
 
-## Publications
+## Publications {#publications}
 
 ### Journals
 
