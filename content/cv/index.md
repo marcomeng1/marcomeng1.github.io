@@ -7,9 +7,10 @@ description: Xuming Meng, robotics researcher and engineer
  
 <p class="cv-contact">
 Munich, Germany ·
-<a href="xuming.meng@yahoo.com"> Xuming (dot) Meng (at) yahoo.com</a> ·
+<a href="mailto:xuming.meng@yahoo.com">Xuming (dot) Meng (at) yahoo.com</a> ·
 <a href="https://www.linkedin.com/in/xuming-meng/">LinkedIn</a> ·
-<a href="https://scholar.google.com/citations?hl=en&user=NfbJhgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+<a href="https://scholar.google.com/citations?hl=en&user=NfbJhgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> ·
+<a href="https://orcid.org/0000-0001-5642-1830">ORCID</a>
 </p>
 
 Robotics researcher and engineer with 6+ years of experience turning robot dynamics, control, and manipulation research into real-world systems. My work spans reactive grasping, compliant and force control, vision- and tactile-guided manipulation, and robot learning, with hands-on experience in real-time software, sim-to-real validation, and hardware integration.
@@ -47,7 +48,7 @@ Department of Analysis and Control of Complex Robotic Systems (Director: Prof. A
 ### Dr.-Ing. in Robotics, Technical University of Munich
 *09/2022 – 09/2026 · Magna cum laude*
 
-- **Dissertation:** Reactive Motion Generation and Control of Elastic-Joint Robots for Reaching and Grasping.
+- **Dissertation:** Reactive Motion Generation and Control of Elastic-Joint Robots for Reaching and Grasping ([defense slides](/slides/phd-defense/)).
 - **Focus:** reach-while-grasp motion generation, coordinated hand-arm control, and dynamic manipulation with articulated soft robots and tendon-driven hands.
 - Supervised by Prof. Dr. Alin Albu-Schäffer; advised by Dr.-Ing. Manuel Keppler.
 
@@ -70,7 +71,7 @@ Department of Analysis and Control of Complex Robotic Systems (Director: Prof. A
 - **X. Meng**, M. Keppler, and C. Ott, "Elastic Structure Preserving Impedance Control of Bidirectional Antagonistic Variable Stiffness Actuation," *European Control Conference (ECC)*, 2021, pp. 263–269.
 - **X. Meng** and R. Weitschat, "Dynamic Projection of Human Motion for Safe and Efficient Human-Robot Collaboration," *IEEE International Conference on Robotics and Automation (ICRA)*, 2021, pp. 3765–3771.
 - M. C. Harder, M. Keppler, **X. Meng**, C. Ott, H. Hoeppner, and A. Dietrich, "Simultaneous Motion Tracking and Joint Stiffness Control of Bidirectional Antagonistic Variable-Stiffness Actuators," *IEEE Robotics and Automation Letters*. Best Paper Award honorable mention.
-- S. Wolf, …, **X. Meng**, …, and A. Albu-Schäffer, "neoDavid – A Humanoid Robot with Variable Stiffness Actuation and Dexterous Manipulation Skills," *IEEE Robotics and Automation Magazine*, 2025.
+- S. Wolf, …, **X. Meng**, …, and A. Albu-Schäffer, "neoDavid – A Humanoid Robot with Variable Stiffness Actuation and Dexterous Manipulation Skills," *IEEE Robotics and Automation Magazine*, vol. 33, no. 2, June 2026.
 
 See [Projects and Publications](/publications/) for videos and project details.
 

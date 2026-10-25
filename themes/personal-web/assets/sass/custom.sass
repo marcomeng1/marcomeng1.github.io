@@ -1,3 +1,40 @@
+
+// Fonts are self-hosted in static/fonts
+@font-face
+  font-family: "Montserrat"
+  font-style: normal
+  font-weight: 500
+  font-display: swap
+  src: url("/fonts/montserrat-500.woff2") format("woff2")
+
+@font-face
+  font-family: "Montserrat"
+  font-style: normal
+  font-weight: 600
+  font-display: swap
+  src: url("/fonts/montserrat-600.woff2") format("woff2")
+
+@font-face
+  font-family: "Raleway"
+  font-style: normal
+  font-weight: 400
+  font-display: swap
+  src: url("/fonts/raleway-400.woff2") format("woff2")
+
+@font-face
+  font-family: "Raleway"
+  font-style: italic
+  font-weight: 400
+  font-display: swap
+  src: url("/fonts/raleway-400-italic.woff2") format("woff2")
+
+@font-face
+  font-family: "Raleway"
+  font-style: normal
+  font-weight: 600
+  font-display: swap
+  src: url("/fonts/raleway-600.woff2") format("woff2")
+
 .small
   font-size: $font-size_small
 
@@ -221,7 +258,7 @@ header
     margin-bottom: 6px
     text-align: left
 
-#content .projects
+#content .projects, #content .news, #content .home, #content .legal
   h2
     font-size: $font-size_h3
     border-bottom: 2px solid $secondary-color
@@ -244,9 +281,6 @@ header
   figure
     margin-bottom: $margin-blocks/2
 
-  > div
-    margin-bottom: $margin-blocks/2
-
   ul
     margin-top: 0
     padding-left: 1.2em
@@ -254,3 +288,194 @@ header
   li
     margin-bottom: 6px
     text-align: left
+
+  p
+    text-align: left
+
+#content .video-embed
+  margin-bottom: $margin-blocks/2
+
+  .video-frame
+    position: relative
+    padding-bottom: 56.25%
+    height: 0
+    overflow: hidden
+    background: $dark-blue
+    border-radius: 2px
+
+    iframe, .video-facade
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      border: 0
+
+  .video-facade
+    padding: 0
+    cursor: pointer
+    background: none
+
+    img
+      width: 100%
+      height: 100%
+      margin: 0
+      object-fit: cover
+
+    .video-play
+      position: absolute
+      top: 50%
+      left: 50%
+      width: 68px
+      height: 48px
+      margin: -24px 0 0 -34px
+      border-radius: 12px
+      background: rgba(0, 0, 0, 0.75)
+      +transition(background 0.2s)
+      &:after
+        content: ''
+        position: absolute
+        top: 14px
+        left: 27px
+        border-style: solid
+        border-width: 10px 0 10px 18px
+        border-color: transparent transparent transparent white
+
+    &:hover .video-play, &:focus .video-play
+      background: $secondary-color
+
+  .video-note
+    font-size: $font-size_small
+    color: $grey-700
+    margin: 4px 0 0
+
+#content .home
+  .home-links
+    display: flex
+    flex-wrap: wrap
+    gap: 10px
+    margin: $margin-blocks/2 0 $margin-blocks
+
+    a, a:visited, a:link
+      border: 1px solid $dark-blue
+      border-radius: 3px
+      padding: 6px 14px
+      font-size: $font-size_medium
+
+    a:hover, a:focus
+      background: $dark-blue
+      color: white
+      border-color: $dark-blue
+
+  .featured
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 20px
+
+    +smartphone
+      grid-template-columns: 1fr
+
+    a, a:visited, a:link, a:hover
+      border-bottom: 0
+      display: block
+
+    img
+      width: 100%
+      margin: 0 0 8px
+      aspect-ratio: 16 / 9
+      object-fit: cover
+      border-radius: 2px
+      box-shadow: $box-shadow
+
+    .featured-title
+      font-family: $font-family_header
+      font-weight: $font-weight_h1
+      line-height: 1.35em
+
+    .featured-meta
+      display: block
+      color: $grey-700
+      font-size: $font-size_small
+      font-weight: $font-weight_main
+
+    a:hover .featured-title
+      color: $secondary-color
+
+#content .news
+  li
+    margin-bottom: 12px
+
+#content:has(.slideshow)
+  max-width: 60em
+
+#content .slideshow
+  margin: $margin-blocks/2 0 $margin-blocks
+  outline: none
+
+  .slideshow-stage
+    cursor: pointer
+    user-select: none
+
+  .slideshow-slide
+    margin: 0
+
+    img
+      width: 100%
+      height: auto
+      margin: 0
+      display: block
+      box-shadow: $box-shadow
+      background: $grey-200
+
+    figcaption
+      font-size: $font-size_medium
+      color: $grey-700
+      text-align: center
+      margin-top: 8px
+
+  .slideshow-controls
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 12px
+    margin-top: $margin-blocks/2
+
+    button
+      font-family: $font-family_header
+      font-size: $font-size_medium
+      color: $dark-blue
+      background: white
+      border: 1px solid $dark-blue
+      border-radius: 3px
+      padding: 6px 14px
+      cursor: pointer
+      &:hover, &:focus
+        background: $dark-blue
+        color: white
+
+  .slideshow-counter
+    font-family: $font-family_header
+    min-width: 4.5em
+    text-align: center
+
+  &:fullscreen
+    background: black
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 2vh 2vw
+
+    .slideshow-slide img
+      max-height: 88vh
+      width: auto
+      max-width: 100%
+      margin: 0 auto
+      box-shadow: none
+
+    .slideshow-controls button
+      background: transparent
+      color: white
+      border-color: white
+
+    .slideshow-counter, figcaption, figcaption a
+      color: $grey-400

@@ -3,8 +3,8 @@
   <meta name='description' content='{{ .Params.description }}' />
   <meta name='theme-color' content='{{- .Site.Params.accentColor | default "black" -}}' />
   {{ if .Site.Params.assets.favicon }}
-    <link rel="shortcut icon" href="{{ .Site.Params.assets.favicon }}" type="image/x-icon" />
-    <link rel="icon" href="{{ .Site.Params.assets.favicon }}" type="image/x-icon" />
+    <link rel="icon" href="{{ .Site.Params.assets.favicon }}" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   {{ end }}
 
   {{ hugo.Generator }}
