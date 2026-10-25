@@ -1,78 +1,99 @@
 ---
-layout: cv
-title: Xuming Meng
+title: Curriculum Vitae
+description: Xuming Meng, robotics researcher and engineer
 ---
-<div id="webaddress">
-<a href="xuming.meng@yahoo.com"> Xuming (dot) Meng (at) yahoo.com</a>
-| <a href="https://www.linkedin.com/in/xuming-meng/">Linkedin</a>
-| <a href="https://scholar.google.com/citations?hl=en&user=NfbJhgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a><br>
-Munich, Germany
-</div>
 
-## About
-Dedicated robotic researcher with 5 years of hands-on experience in control, mechatronics, and software development. Demonstrated ability to work independently to produce high-quality research and effectively collaborate within multidisciplinary teams. Proficient in integrating diverse technologies to develop innovative robotic solutions and committed to advancing the field through continuous learning and practical application.
+<div class="cv">
+ 
+<p class="cv-contact">
+Munich, Germany ·
+<a href="xuming.meng@yahoo.com"> Xuming (dot) Meng (at) yahoo.com</a> ·
+<a href="https://www.linkedin.com/in/xuming-meng/">LinkedIn</a> ·
+<a href="https://scholar.google.com/citations?hl=en&user=NfbJhgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+</p>
 
-## Skills
-
-**robotics:** impedance control, Lyapunov stability, nonlinear control, inverse dynamics control, passivity-based tracking control, variable stiffness actuator (VSA) modelling, holonomic-constrained Euler-Lagrange dynamics, port-Hamiltonian system, tendon-driven hands, elastic hands, multifingered hand control, feedback motion planning (vector field, GMM, GMR), reactive control, grasping control, human-robot interaction and collaboration, trajectory optimization.
-
-**simulations:** MuJoCo (with Roy Featherstone's dynamics libs), Gazebo, ANSYS. 
-
-**programming:** Matlab/Simulink, ROS (noetic, melodic), python, git, C++, LaTeX, bash, PLC-Programming (with Standard IEC 61131-3), UML, XML, SysML, SysML4Mechatronics.
-
-**software project management:** SCRUM. 
-
-**mechnical modelling:** Solidworks, Autodesk CAD, Autodesk 3ds Max. 
-
-**languages:** Chinese, English and German.
+Robotics researcher and engineer with 6+ years of experience turning robot dynamics, control, and manipulation research into real-world systems. My work spans reactive grasping, compliant and force control, vision- and tactile-guided manipulation, and robot learning, with hands-on experience in real-time software, sim-to-real validation, and hardware integration.
 
 ## Experience
 
-#### 2022-2025
-__Doctoral Candidate in Robotics @ Technical University of Munich (TUM)__
-- Thesis: __Reactive Motion Generation and Control of Elastic-Joint Robots for Grasping__ (Expected graduation: End of 2025)
-- Reactive motion generation for high-dimensional robots
-- Multi-fingerd hand control (including tendon-driven systems), e.g., DLR neoDavid Hand
-- Elastic actuator control: hybird motion and force control
+### Senior AI Engineer, Agile Robots SE
+*08/2025 – present · Munich, Germany · AI Platform, AI Division*
 
-#### 2020-2025
-__Research Scientist @ German Aerospace Center (DLR)__
-- Developed novel control strategies: the research focuses on enhancing dynamic and reactive robotic grasping and manipulation for the humanoid robot, e.g., DLR neoDavid. Profound and practical knowledge of using physics simulators like MuJoCo for manipulation and grasping use cases including real-world robotic deployment. 
-- Expertise in sophisticated robotic systems: Comprehensive understanding of system workflows for elastic robots such as DLR David and CLASH, including hands-on experience with software infrastructure development, system identification, sensor signal analysis, failure diagnosis, and mechanical maintenance. Extensive experience in modeling and controlling variable stiffness actuators and nonlinearly coupled elastic tendon-driven hands.
--	Developed and implemented demos: Conducted live demonstration at notable exhibitions such as Automatica 2022 and European Robotics Forum 2024.
-- Advised and mentored students: Provided guidance and mentorship to three master’s students.
+- **High-precision assembly:** vision-guided manipulation beyond conventional visual servoing, with robust closed-loop alignment under occlusion, weak visual features, and tight tolerances.
+- **Tactile-reactive manipulation:** contact-aware strategies that combine high-resolution tactile sensing with control, for handling, inspecting, and assembling deformable objects.
+- **Learning-based dynamic manipulation:** optimal control combined with reinforcement learning for adaptive, dexterous manipulation and sim-to-real transfer (Isaac Sim, Newton, MuJoCo).
+- **Delivery and mentoring:** system integration, deployment, and testing on pre-release prototypes; live demos including Hannover Messe 2026; mentoring junior engineers and master's students.
 
-#### 2018-2019
-__Intern @ Bayerische Motoren Werke (BMW) AG in Munich, Germany__
-- Tool development for the automated data evaluation at the drive test bench and programming of the test methods at the Department Experimental and Simulation Methods for Engine Development (EA-812).
+### Research Scientist, German Aerospace Center (DLR)
+*02/2020 – 01/2025 · Weßling, Germany · Institute of Robotics and Mechatronics*
 
+Department of Analysis and Control of Complex Robotic Systems (Director: Prof. Alin Albu-Schäffer).
+
+- **Reactive grasping:** control and vector-field-based planning for dynamic grasping of moving targets, beyond traditional pick-and-place.
+- **Compliant humanoid control:** model-based motion, force, and impedance control for elastic and tendon-coupled platforms such as DLR David.
+- **Simulation to reality:** MuJoCo-based workflows to develop, evaluate, and transfer manipulation algorithms to physical robots.
+- **Elastic systems:** modeling and control of variable stiffness actuators and tendon-driven multi-fingered hands.
+- **System integration:** control, perception, and hardware integration, including system identification, sensor processing, and failure diagnosis.
+- **Live demos:** dynamic grasping and dishwasher unloading at Automatica 2022 and the European Robotics Forum 2024.
+- **Collaboration:** advised hand-hardware design teams and mentored graduate students across international, multidisciplinary teams.
+
+### Intern, BMW AG
+*10/2018 – 03/2019 · Munich, Germany*
+
+- Built tools for automated data evaluation at the drive test bench and programmed test methods for engine development.
 
 ## Education
 
-#### 2016-2019
-__Technical University of Munich (TUM)__, M. Sc. Mechatronics and Information Technology.
-- focus on robotics, numerical and applied mechanics, nonlinear control, eletric motors (Grade: 1.6)
-- Master Thesis: __Dynamic Projection of Human Motion for a Safe and Efficient Human-Robot Collaboration__, at DLR 
-  
-  - Grade: 1.3 (90/100)
-  - Safety requirements of ISO 10218 for industrial robots and ISO/TS 15066 for the collaborative robots.
-- Semester Thesis: __Implementation and Investigation of Control Concepts for an Elastic Robot__ 
+### Dr.-Ing. in Robotics, Technical University of Munich
+*09/2022 – 09/2026 · Magna cum laude*
 
-  - Grade: 1.0 (100/100)
-  - Port-hamiltonian system control; PLC programming; 
+- **Dissertation:** Reactive Motion Generation and Control of Elastic-Joint Robots for Reaching and Grasping.
+- **Focus:** reach-while-grasp motion generation, coordinated hand-arm control, and dynamic manipulation with articulated soft robots and tendon-driven hands.
+- Supervised by Prof. Dr. Alin Albu-Schäffer; advised by Dr.-Ing. Manuel Keppler.
 
-#### 2012-2016
-__China University of Petroleum (East China)__, B.Sc. Mechanical Engineering and Automation.   (Grade: 96/100)
+### M.Sc. Mechatronics and Information Technology, Technical University of Munich
+*10/2016 – 12/2019 · Grade 1.6*
 
-- focus on electronics, motor control
-- Bachelor thesis: __Multiple Single-phase Motor Control System Design based on a NXP Microcontroller__ (Grade: 90/100)
+- **Master's thesis (1.3):** Dynamic Projection of Human Motion for a Safe and Efficient Human-Robot Collaboration, at DLR. Included safety requirements of ISO 10218 and ISO/TS 15066.
+- **Semester thesis (1.0):** Implementation and Investigation of Control Concepts for an Elastic Robot.
 
-<br>
+### B.Sc. Mechanical Engineering and Automation, China University of Petroleum (East China)
+*09/2012 – 07/2016 · Qingdao, China · Grade 1.3 (96/100)*
+
+- **Bachelor's thesis:** Multiple Single-Phase Motor Control System Design Based on an NXP Microcontroller.
+
+## Selected publications
+
+- **X. Meng**, H. Maurenbrecher, A. Albu-Schäffer, and M. Keppler, "Finger Flow: Reactive Reach-while-Grasp Generation for Robotic Arms with Multi-Fingered Hands," *Robotics and Autonomous Systems*, 2025.
+- **X. Meng**, M. Keppler, and C. Ott, "Passivity-Based Motion and Force Tracking Control for Constrained Elastic Joint Robots," *IEEE Control Systems Letters*, vol. 7, pp. 217–222, 2023. Oral at CDC 2022.
+- **X. Meng**, G. J. Pollayil, M. Keppler, M. Pfanne, A. Bicchi, and C. Ott, "Elastic Structure Preserving Impedance Control for Nonlinearly Coupled Tendon-Driven Systems," *IEEE Control Systems Letters*, vol. 6, pp. 1982–1987, 2022. Oral at ACC 2022.
+- **X. Meng**, M. Keppler, and C. Ott, "Elastic Structure Preserving Impedance Control of Bidirectional Antagonistic Variable Stiffness Actuation," *European Control Conference (ECC)*, 2021, pp. 263–269.
+- **X. Meng** and R. Weitschat, "Dynamic Projection of Human Motion for Safe and Efficient Human-Robot Collaboration," *IEEE International Conference on Robotics and Automation (ICRA)*, 2021, pp. 3765–3771.
+- M. C. Harder, M. Keppler, **X. Meng**, C. Ott, H. Hoeppner, and A. Dietrich, "Simultaneous Motion Tracking and Joint Stiffness Control of Bidirectional Antagonistic Variable-Stiffness Actuators," *IEEE Robotics and Automation Letters*. Best Paper Award honorable mention.
+- S. Wolf, …, **X. Meng**, …, and A. Albu-Schäffer, "neoDavid – A Humanoid Robot with Variable Stiffness Actuation and Dexterous Manipulation Skills," *IEEE Robotics and Automation Magazine*, 2025.
+
+See [Projects and Publications](/publications/) for videos and project details.
 
 ## Awards
-- Presidential Award (2015) - Only 10 students at the whole university receive this award each year from the president due to their excellent overall capabilities, such as learning, research and team leading ability.
-- National Scholarship (2013, 2014 und 2015) - Only 1% of students in each faculty receive this annual scholarship.
-- "Wangtao" Scholarship - Only one student of all bachelor students receives this award once a year from the Beijing Petroleum Fund Committee.
-- Honored as a "Successful Participant" (2014) at the American Mathematical Competition in Modeling, USA.
-- First prize for innovation design competition of mechatronic products (2014) for students in Shandong, China.
 
+- **2026 · PhD with distinction:** Dr.-Ing. in Robotics, magna cum laude, Technical University of Munich.
+- **2023 · RA-L Best Paper Award, honorable mention:** co-author of the variable-stiffness actuator paper above.
+- **2015 · Presidential Award:** one of 10 students university-wide each year.
+- **2013–2015 · National Scholarship:** awarded three times; top 1% of each faculty.
+
+## Academic service
+
+- **Conference reviewer:** RSS (2026), IROS (2022–2025), ICRA (2021–2026), ECC (2021), ACC (2022), CDC (2022).
+- **Journal reviewer:** IEEE T-RO (2026), IEEE RA-L (2023–2025), Automatica (2023), IEEE L-CSS (2022–2023).
+- **Session co-chair:** ICRA 2021.
+
+## Skills
+
+- **Programming:** C/C++, Python, ROS 2, Links and Nodes, MATLAB/Simulink, PLC (IEC 61131-3), LaTeX, Assembly, XML (URDF, MJCF), SysML, SysML4Mechatronics.
+- **Robotics:** MuJoCo, Isaac Sim, Newton, KOMO, cuRobo, Pinocchio, Crocoddyl, ProxSuite, qpOASES, Drake (GCS, hydroelastic contact), viser.
+- **Machine learning and vision:** PyTorch, SAM 3, DINOv2, Stable-Baselines3, rl_games.
+- **Software:** git, Conan, vcpkg.
+- **Mechanics:** ANSYS, SolidWorks, Blender, MeshLab, AutoCAD, 3ds Max.
+- **Languages:** Chinese (native), English (C1), German (B2–C1).
+
+</div>

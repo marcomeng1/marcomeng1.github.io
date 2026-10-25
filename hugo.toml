@@ -75,8 +75,8 @@ pygmentsCodeFences=true
 
 [[menu.main]]
   identifier = "publications"
-  name = "Publications"
-  title = "Publications"
+  name = "Projects"
+  title = "Projects"
   url = "/publications/"
   weight = -100
 
@@ -91,6 +91,8 @@ pygmentsCodeFences=true
     disable = true
     respectDoNotTrack = true
     useSessionStorage = false
+  [privacy.youtube]
+    privacyEnhanced = true
   [privacy.twitter]
     disable = false
     enableDNT = true
